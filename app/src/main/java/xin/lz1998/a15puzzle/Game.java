@@ -1,10 +1,5 @@
 package xin.lz1998.a15puzzle;
 
-import android.provider.Settings;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
 
 import java.util.Random;
 
@@ -22,9 +17,10 @@ public class Game {
                 sv[i][j].setNum(Config.map[i][j]);
             }
     }
-    public static long play(int num)
+    public static void play(int num)
     {
-        if(!Config.start){
+        if(Config.scramble){
+            Config.scramble=false;
             Config.start=true;
             Config.startTime=System.currentTimeMillis();
         }
@@ -63,16 +59,10 @@ public class Game {
             Config.count++;
         }
         else
-            return 0;
+            return;
         show();
-
-        if(isWin()){
+        if(Game.isWin())
             Config.start=false;
-            return System.currentTimeMillis()-Config.startTime;
-        }
-
-        else
-            return 0;
     }
     public static boolean isWin()
     {
@@ -140,5 +130,6 @@ public class Game {
         show();
         Config.start=false;
         Config.count=0;
+        Config.scramble=true;
     }
 }

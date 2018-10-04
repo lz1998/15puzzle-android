@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_light"
+    android:background="#f3c500"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -33,31 +33,39 @@
                 <xin.lz1998.a15puzzle.SquareView
 
                     android:id="@+id/square0"
+                    android:text="1"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_red" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square1"
+                    android:text="2"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_red" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square2"
+                    android:text="3"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_red" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square3"
+                    android:text="4"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_red" />
             </TableRow>
 
             <TableRow
@@ -67,31 +75,39 @@
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square4"
+                    android:text="5"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_red" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square5"
+                    android:text="6"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_blue" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square6"
+                    android:text="7"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_blue" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square7"
+                    android:text="8"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_blue" />
             </TableRow>
 
             <TableRow
@@ -101,31 +117,39 @@
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square8"
+                    android:text="9"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_red" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square9"
+                    android:text="10"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_blue" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square10"
+                    android:text="11"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_green" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square11"
+                    android:text="12"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_green" />
             </TableRow>
 
             <TableRow
@@ -135,31 +159,39 @@
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square12"
+                    android:text="13"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_red" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square13"
+                    android:text="14"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_blue" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square14"
+                    android:text="15"
+                    android:textColor="#000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="@drawable/square_view_background_green" />
 
                 <xin.lz1998.a15puzzle.SquareView
                     android:id="@+id/square15"
+                    android:text="0"
+                    android:textColor="#00000000"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
-                    android:background="#000000" />
+                    android:background="#00000000"/>
             </TableRow>
         </TableLayout>
 

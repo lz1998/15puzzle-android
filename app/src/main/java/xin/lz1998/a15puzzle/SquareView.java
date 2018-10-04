@@ -7,7 +7,6 @@ import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class SquareView extends TextView implements View.OnClickListener{
     public int num=10;
@@ -43,8 +42,7 @@ public class SquareView extends TextView implements View.OnClickListener{
     public SquareView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        this.setText(String.valueOf(num));
-        this.setTextColor(Color.WHITE);
+        //this.setTextColor(Color.BLACK);
         this.setTextSize(TypedValue.COMPLEX_UNIT_SP,60);
         this.setGravity(Gravity.CENTER);
         setOnClickListener(this);
@@ -56,11 +54,9 @@ public class SquareView extends TextView implements View.OnClickListener{
     @Override
     public void onClick(View v) {
 
-        long time=Game.play(num);
-        if(time!=0){
-            Toast.makeText(this.getContext(),"YOU WIN!",Toast.LENGTH_SHORT).show();
+        Game.play(num);
 
-        }
+
 
         //this.setText(String.valueOf(0));
     }

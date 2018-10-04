@@ -1,10 +1,8 @@
 package xin.lz1998.a15puzzle;
 
 public class Config {
-    public static int LEFT=1;
-    public static int RIGHT=2;
-    public static int UP=3;
-    public static int DOWN=4;
+
+    public static boolean scramble=false;
     public static long startTime=0;
     public static boolean start=false;
     public static int count=0;
