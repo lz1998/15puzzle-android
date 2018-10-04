@@ -1,5 +1,4 @@
 # 15puzzle-android
-<h1>15PUZZLE</h1>
 <h4>PREREQUISITES</h4>
 JDK<br/>
 SDK<br/>
