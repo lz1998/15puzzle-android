@@ -5,4 +5,4 @@
     ANDROID STUDIO<br/>
 <h4>CONTACT</h4>
     QQ:875543533
-<img src='https://github.com/lz1998/15puzzle-android/blob/master/15puzzle.png'/>
+<img src='https://github.com/lz1998/15puzzle-android/blob/master/screenshot/screenshot1.png'/>
