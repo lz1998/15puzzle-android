@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">15puzzle</string>
+    <string name="_15puzzle">15PUZZLE</string>
+    <string name="scramble">SCRAMBLE!</string>
+</resources>

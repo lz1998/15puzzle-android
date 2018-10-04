@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_15puzzle"
+            android:textSize="50sp" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <xin.lz1998.a15puzzle.SquareView
+
+                    android:id="@+id/square0"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square8"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square9"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square10"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square11"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square12"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square13"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square14"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+
+                <xin.lz1998.a15puzzle.SquareView
+                    android:id="@+id/square15"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="#000000" />
+            </TableRow>
+        </TableLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <xin.lz1998.a15puzzle.TimeView
+                    android:id="@+id/timeView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="00:00.000"
+                    android:textSize="40dp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Moves:0" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="#5babe6"
+                android:gravity="center"
+                android:onClick="scrambleOnClick"
+                android:text="@string/scramble" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
